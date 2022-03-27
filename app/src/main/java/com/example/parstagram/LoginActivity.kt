@@ -66,6 +66,12 @@ class LoginActivity : AppCompatActivity() {
         )
     }
 
+//    private fun logOutUser() {
+//        ParseUser.logOut()
+//        val User = ParseUser.getCurrentUser() // this will now be null
+//    }
+//
+
     private fun goToMainActivity() {
         val intent = Intent(this@LoginActivity, MainActivity::class.java)
         startActivity(intent)
